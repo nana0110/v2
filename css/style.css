@@ -1,0 +1,299 @@
+body { padding-top: 70px; }
+
+a, a:hover, a:active{
+    text-decoration: none;
+    color:inherit;
+}
+
+.maingray {
+    background-color: #939393;
+}
+
+.lightgray {
+    background-color: #cccccc;
+}
+
+.maingreen {
+    background-color: #6cae41;
+}
+
+.mainwhite {
+    background-color: white;
+    color: #4f4f4f;
+}
+
+.color1 {
+    background-color: #CFCC04;
+}
+
+.color2 {
+    background-color: #EC6AA1;
+}
+
+.color3 {
+    background-color: #EC3B86;
+}
+
+.color4 {
+    background-color: #D9005B;
+}
+
+.color5 {
+    background-color: #8D003B;
+}
+
+.border2 {
+    border: 8px solid #EC6AA1;
+}
+
+.border3 {
+    border: 8px solid #EC3B86;
+}
+
+.border4 {
+    border: 8px solid #D9005B;
+}
+
+.border5 {
+    border: 8px solid #8D003B;
+}
+
+.fruitimg {
+    width:110px;
+}
+
+.seasonstyle {
+    width: 100%;
+    height: 30px;
+}
+
+.seasonbox {
+    align-items: left;
+    text-align: left;
+    display: table;
+}
+
+
+.fruitbox {
+    align-items: center;
+    text-align: center;
+    display: table;
+    width: 95%;
+}
+
+.fruitcolorbox {
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+}
+
+.circular {
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+}
+
+.standardHead > h1, .standardHead > h2, .standardHead > h3  {
+    font-size:45px;
+    text-align: center;
+}
+
+.rechnerButton {
+    width: 100%;
+    height: 45px;
+}
+
+.rechnerFruitsBox {
+    width: 100%;
+    height: 650px;
+    margin-top: 15px;
+}
+
+.vitaminBoxRechner {
+    margin-top: 40px !important;
+}
+
+.buttonSettings {
+    margin-top: 15px;
+}
+
+.progressText {
+    margin-left: 15px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.rechnerBar {
+    background-color: #4f4f4f;
+    height: 30px;
+}
+
+
+.nopadding {
+    padding-left: 0!important;
+}
+
+.welcome > h1, .welcome > h2, .welcome > h3{
+    text-align: center;
+}
+.welcome > h1 {
+    font-size:100px;
+    margin-bottom: 100px;
+}
+.welcome > h2 {
+    font-size:85px;
+    margin-bottom: 80px;
+}
+.welcome > h3 {
+    font-size:75px;
+    margin-bottom: 70px;
+}
+.welcome-tile p, .welcome-tile h2 {
+    word-break: break-all;
+    font-family: "Cabin", Arial, sans-serif !important;
+    margin:0;
+}
+
+.welcome-tile {
+    height: 200px;
+    /*width: 400px;
+    vertical-align: middle;
+    display:table-cell;*/
+    color:white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+.welcome-tile .panel-body{
+    width:100%;
+}
+
+.box p {
+    padding-bottom: 5px;
+}
+
+.box h2, .box p {
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0px;
+}
+
+.boxm h2, .box p {
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0px;
+}
+
+.boxm p, .box p {
+    font-size: 18px;
+}
+
+.boxm {
+    min-width: 125px;
+    height: 140px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    color: white;
+    /*padding: 20px;*/
+    border-style: solid;
+    border-width: 5px;
+    margin-bottom: 20px;
+    border-color: #6cae41;
+    text-align: center;
+    display: table;
+    width: 100%;
+    /*display: flex;
+    align-items: center;*/
+}
+
+.box {
+    min-width: 125px;
+    height: 140px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    color: white;
+    /*padding: 20px;*/
+    border-style: solid;
+    border-width: 5px;
+    margin-bottom: 20px;
+    border-color: #6cae41;
+    text-align: center;
+    display: table;
+    width: 100%;
+    /*display: flex;
+    align-items: center;*/
+}
+
+.grayborder {
+    border-color: #939393;
+}
+
+.greenborder {
+    border-color: #6cae41;
+    color: #6cae41;
+    background-color: white !important;
+}
+
+.flip {
+    -webkit-perspective: 800;
+    perspective: 800;
+    position: relative;
+    text-align: center;
+}
+
+.flip .card.flipped {
+    -webkit-transform: rotatey(-180deg);
+    transform: rotatey(-180deg);
+}
+
+.flip .card {
+    height: 100%;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: 0.5s;
+    transform-style: preserve-3d;
+    transition: 0.5s;
+}
+
+.flip .card .face {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    z-index: 2;
+}
+
+.flip .card .front {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.flip .card .back {
+    -webkit-transform: rotatey(-180deg);
+    transform: rotatey(-180deg);
+}
+
+/**.inner {
+    height: 100px !important;
+    margin: 0px !important;
+}*/
+.packageStock {
+    position: absolute;
+    top: 4px;
+    left: 8px;
+    font-size: 2.2em;
+}
+.packageFamily {
+    position: absolute;
+    bottom: 4px;
+    right: 8px;
+}
+.flipControl {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    font-size: 1.2em;
+}
